@@ -10,17 +10,17 @@ Just because our fuzzer worked or the PoC was fantastic doesn't mean that runnin
 - Author: 	hacher404
 
 # chmod_linux.c 	
-Type: 	chmod("/etc/shadow", 666); exit();
-OS 	Linux
-Arch: 	x86
-Size: 	32 bytes
-MD5: 	20f5b12240eaa55d50cf93b7169d151c
-Author: 	hacher404
+- Type: 	chmod("/etc/shadow", 666); exit();
+- OS 	Linux
+- Arch: 	x86
+- Size: 	32 bytes
+- MD5: 	20f5b12240eaa55d50cf93b7169d151c
+- Author: 	hacher404
 
 # reboot_linux.c 	
-Type: 	reboot(0x1234567);
-OS 	Linux
-Arch: 	x86
-Size: 	21 bytes
-MD5: 	15d6609784eabbebe24f537a065a83ef
-Author: 	hacher404
+- Type: 	reboot(0x1234567);
+- OS 	Linux
+- Arch: 	x86
+- Size: 	21 bytes
+- MD5: 	15d6609784eabbebe24f537a065a83ef
+- Author: 	hacher404
